@@ -1,0 +1,22 @@
+C:\dev\Eclipse\CPP\workspace\Sim68k\Debug>Sim68k.exe
+Your Option ('e' to execute, 'q' to quit): e
+Name of the 68k binary program ('.68b' will be added automatically): ../in/arith-add
+Program loaded! Have 78 bytes in memory.
+
+Status Bits: H:False N:True Z:False V:True C:False
+[0X6] = 0X9978 (word)
+Status Bits: H:False N:True Z:False V:False C:False
+[0X6] = 0XDCAC (word)
+Status Bits: H:False N:False Z:True V:False C:True
+[ D0 ] = 0 (long)
+Status Bits: H:False N:False Z:False V:False C:False
+[ D0 ] = 0X100 (long)
+Status Bits: H:False N:True Z:False V:False C:True
+[0XC] = 0XFFFF5E9A (long)
+
+        End of Fetch-Execute Cycle
+Your Option ('e' to execute, 'q' to quit): q
+Bye!
+        PROGRAM ENDED
+
+C:\dev\Eclipse\CPP\workspace\Sim68k\Debug>

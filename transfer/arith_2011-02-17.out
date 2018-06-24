@@ -1,0 +1,152 @@
+C:\dev\Eclipse\CPP\workspace\Sim68k\Debug>Sim68k.exe
+Your Option ('e' to execute, 'q' to quit): e
+Name of the 68k binary program ('.68b' will be added automatically): ../in/arith
+Program loaded! Have 176 bytes in memory.
+
+        BRA (word): OpAd1 = 20, OpAd2 = 20, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        ADD (byte): OpAd1 = 4, OpAd2 = 4, M1 = 3, R1 = 0, M2 = 3, R2 = 0
+        DSR (byte): OpAd1 = 4, OpAd2 = 4, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:True Z:False V:True C:False
+        DSP (word): OpAd1 = 6, OpAd2 = 6, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+[0X6] = 0X9978 (word)
+        ADD (word): OpAd1 = 4, OpAd2 = 4, M1 = 3, R1 = 0, M2 = 3, R2 = 0
+        DSR (byte): OpAd1 = 4, OpAd2 = 4, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:True Z:False V:False C:False
+        DSP (word): OpAd1 = 6, OpAd2 = 6, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+[0X6] = 0XDCAC (word)
+        MOVE (long): OpAd1 = 16, OpAd2 = 16, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        ADDQ (byte): OpAd1 = 16, OpAd2 = 16, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        DSR (byte): OpAd1 = 16, OpAd2 = 16, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:False Z:True V:False C:True
+        DSP (long): OpAd1 = 16, OpAd2 = 16, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0 (long)
+        MOVE (long): OpAd1 = 16, OpAd2 = 16, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        ADDQ (word): OpAd1 = 16, OpAd2 = 16, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        DSR (byte): OpAd1 = 16, OpAd2 = 16, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:False Z:False V:False C:False
+        DSP (long): OpAd1 = 16, OpAd2 = 16, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0X100 (long)
+        ADD (long): OpAd1 = 8, OpAd2 = 8, M1 = 3, R1 = 0, M2 = 3, R2 = 0
+        DSR (byte): OpAd1 = 8, OpAd2 = 8, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:True Z:False V:False C:True
+        DSP (long): OpAd1 = 12, OpAd2 = 12, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+[0XC] = 0XFFFF5E9A (long)
+        INP (long): OpAd1 = 12, OpAd2 = 12, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (long) for the register D1: 0
+        SUB (long): OpAd1 = 8, OpAd2 = 8, M1 = 3, R1 = 0, M2 = 3, R2 = 0
+        DSP (long): OpAd1 = 12, OpAd2 = 12, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+[0XC] = 0XFFFFCDEF (long)
+        SUBQ (long): OpAd1 = 12, OpAd2 = 12, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 12, OpAd2 = 12, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XF6 (long)
+        MOVE (long): OpAd1 = 16, OpAd2 = 16, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        ADDQ (byte): OpAd1 = 16, OpAd2 = 16, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        SUBQ (byte): OpAd1 = 16, OpAd2 = 16, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 16, OpAd2 = 16, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XF6 (long)
+        SUB (word): OpAd1 = 4, OpAd2 = 4, M1 = 3, R1 = 0, M2 = 3, R2 = 0
+        DSP (word): OpAd1 = 6, OpAd2 = 6, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+[0X6] = 0X9978 (word)
+        SUB (byte): OpAd1 = 4, OpAd2 = 4, M1 = 3, R1 = 0, M2 = 3, R2 = 0
+        DSP (word): OpAd1 = 6, OpAd2 = 6, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+[0X6] = 0X5678 (word)
+        DSR (byte): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:False Z:False V:True C:False
+        INP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (long) for the register D1: 0
+        MOVEQ (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        NEG (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFFFFFD (long)
+        NEG (word): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFF0003 (long)
+        NEG (byte): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFF00FD (long)
+        NEG (byte): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFF0003 (long)
+        DSR (byte): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:False Z:False V:False C:True
+        INP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (long) for the register D1: 0
+        INP (word): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (word) for the register D0: ff80
+        INP (word): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: 7f
+        MULS (word): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFFC080 (long)
+        INP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (long) for the register D0: ffffffff
+        INP (word): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: fffe
+        DIVS (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFF0000 (long)
+        DSR (byte): OpAd1 = 6, OpAd2 = 6, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:True Z:False V:False C:False
+        BVS (word): OpAd1 = 174, OpAd2 = 174, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        BRA (word): OpAd1 = 148, OpAd2 = 148, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (word) for the register D0: -5
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: -5
+        MULS (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0X19 (long)
+        INP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (long) for the register D0: ffff0000
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: 7e
+        DIVS (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFF0FDF8 (long)
+        DSR (byte): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:True Z:False V:False C:False
+        BVS (word): OpAd1 = 174, OpAd2 = 174, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        BRA (word): OpAd1 = 148, OpAd2 = 148, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (word) for the register D0: 10
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: -10
+        MULS (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFFFF00 (long)
+        INP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (long) for the register D0: a
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: -a
+        DIVS (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0XFFFF (long)
+        DSR (byte): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:False Z:False V:False C:False
+        BVS (word): OpAd1 = 174, OpAd2 = 174, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        BRA (word): OpAd1 = 148, OpAd2 = 148, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (word) for the register D0: ffff
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: ffff
+        MULS (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0X1 (long)
+        INP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Enter a value (long) for the register D0: 7ffff
+        INP (word): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+Enter a value (word) for the register D1: 2
+        DIVS (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 1, M2 = 0, R2 = 0
+        DSP (long): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+[ D0 ] = 0X1FFFF (long)
+        DSR (byte): OpAd1 = 148, OpAd2 = 148, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+Status Bits: H:False N:False Z:False V:True C:False
+        BVS (word): OpAd1 = 174, OpAd2 = 174, M1 = 3, R1 = 0, M2 = 0, R2 = 0
+        HLT (byte): OpAd1 = 174, OpAd2 = 174, M1 = 0, R1 = 0, M2 = 0, R2 = 0
+
+        End of Fetch-Execute Cycle
+Your Option ('e' to execute, 'q' to quit): q
+Bye!
+        PROGRAM ENDED
+
+C:\dev\Eclipse\CPP\workspace\Sim68k\Debug>

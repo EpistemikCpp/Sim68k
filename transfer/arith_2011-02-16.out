@@ -1,0 +1,64 @@
+C:\dev\Eclipse\CPP\workspace\Sim68k\Debug>Sim68k.exe
+Your Option ('e' to execute, 'q' to quit): e
+Name of the 68k binary program ('.68b' will be added automatically): ../in/arith
+Program loaded! Have 176 bytes in memory.
+
+Status Bits: H:False N:True Z:False V:True C:False
+[0X6] = 0X9978 (word)
+Status Bits: H:False N:True Z:False V:False C:False
+[0X6] = 0XDCAC (word)
+Status Bits: H:False N:False Z:True V:False C:True
+[ D0 ] = 0 (long)
+Status Bits: H:False N:False Z:False V:False C:False
+[ D0 ] = 0X100 (long)
+Status Bits: H:False N:True Z:False V:False C:True
+[0XC] = 0XFFFF5E9A (long)
+Enter a value (int) for the register D1: 0
+[0XC] = 0XFFFFCDEF (long)
+[ D0 ] = 0XF6 (long)
+[ D0 ] = 0XF6 (long)
+[0X6] = 0X9978 (word)
+[0X6] = 0X5678 (word)
+Status Bits: H:False N:False Z:False V:True C:False
+Enter a value (int) for the register D1: 0
+[ D0 ] = 0XFFFFFFFD (long)
+[ D0 ] = 0XFFFF0003 (long)
+[ D0 ] = 0XFFFF00FD (long)
+[ D0 ] = 0XFFFF0003 (long)
+Status Bits: H:False N:False Z:False V:False C:True
+Enter a value (int) for the register D1: 0
+Enter a value (word) for the register D0: ff80
+Enter a value (word) for the register D1: 007f
+[ D0 ] = 0XFFFFC080 (long)
+Enter a value (int) for the register D0: ffffffff
+Enter a value (word) for the register D1: fffe
+[ D0 ] = 0XFFFF0000 (long)
+Status Bits: H:False N:True Z:False V:False C:False
+Enter a value (word) for the register D0: -5
+Enter a value (word) for the register D1: -5
+[ D0 ] = 0X19 (long)
+Enter a value (int) for the register D0: ffff0000
+Enter a value (word) for the register D1: 7e
+[ D0 ] = 0XFFF0FDF8 (long)
+Status Bits: H:False N:True Z:False V:False C:False
+Enter a value (word) for the register D0: 10
+Enter a value (word) for the register D1: -10
+[ D0 ] = 0XFFFFFF00 (long)
+Enter a value (int) for the register D0: 10
+Enter a value (word) for the register D1: -10
+[ D0 ] = 0XFFFF (long)
+Status Bits: H:False N:False Z:False V:False C:False
+Enter a value (word) for the register D0: ffff
+Enter a value (word) for the register D1: ffff
+[ D0 ] = 0X1 (long)
+Enter a value (int) for the register D0: 7ffff
+Enter a value (word) for the register D1: 2
+[ D0 ] = 0X1FFFF (long)
+Status Bits: H:False N:False Z:False V:True C:False
+
+        End of Fetch-Execute Cycle
+Your Option ('e' to execute, 'q' to quit): q
+Bye!
+        PROGRAM ENDED
+
+C:\dev\Eclipse\CPP\workspace\Sim68k\Debug>
