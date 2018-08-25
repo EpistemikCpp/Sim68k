@@ -1,2 +1,3 @@
 # Sim68k
-simulation of Motorola 68000 cpu chip
+C simulation of Motorola 68000 cpu chip
+originally assignment for CSI2111
