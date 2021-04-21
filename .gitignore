@@ -7,3 +7,5 @@ csi*
 /Release
 /logs
 /out
+*-Sim68k
+
